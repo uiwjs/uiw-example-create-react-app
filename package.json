@@ -15,7 +15,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
-    "uiw": "3.10.6"
+    "uiw": "4.6.9"
   },
   "scripts": {
     "start": "react-scripts start",
