@@ -1,91 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). Using uiw in [create-react-app](https://github.com/facebookincubator/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Modify Content
+## Available Scripts
 
-[config/webpack.config.dev.js](https://github.com/uiw-react/uiw-example-create-react-app/blob/2593e115545f491a80fa8730ea4b99fee48cb8d1/config/webpack.config.dev.js#L159-L191)
+In the project directory, you can run:
 
-```diff
-{
-  test: /\.css$/,
-+  test: /\.(css|less)$/,
-  use: [
-    require.resolve('style-loader'),
-    {
-      loader: require.resolve('css-loader'),
-      options: {
-        importLoaders: 1,
-      },
-    },
-    {
-      loader: require.resolve('postcss-loader'),
-      options: {
-        // Necessary for external CSS imports to work
-        // https://github.com/facebookincubator/create-react-app/issues/2677
-        ident: 'postcss',
-        plugins: () => [
-          require('postcss-flexbugs-fixes'),
-          autoprefixer({
-            browsers: [
-              '>1%',
-              'last 4 versions',
-              'Firefox ESR',
-              'not ie < 9', // React doesn't support IE8 anyway
-            ],
-            flexbox: 'no-2009',
-          }),
-        ],
-      },
-    },
-+    require.resolve('less-loader'),
-  ],
-},
-```
+### `yarn start`
 
-[package.json](https://github.com/uiw-react/uiw-example-create-react-app/blob/2593e115545f491a80fa8730ea4b99fee48cb8d1/package.json#L5-L47)
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-```diff
-{
-  "name": "uiw-example",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-+    "less": "^3.0.1",
-+    "less-loader": "^4.1.0",
-+    "uiw": "^1.7.0",
-    ...
-  },
-}
-```
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-[src/App.js](https://github.com/uiw-react/uiw-example-create-react-app/blob/2593e115545f491a80fa8730ea4b99fee48cb8d1/src/App.js#L2)
+### `yarn test`
 
-```diff
-import React, { Component } from 'react';
-+ import { Button } from 'uiw';
-import logo from './logo.svg';
-import './App.css';
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-+        <Button type="primary">主要按钮</Button>
-+        <Button type="success">成功按钮</Button>
-+        <Button type="warning">警告按钮</Button>
-+        <Button type="danger">错误按钮</Button>
-+        <Button type="light">亮按钮</Button>
-+        <Button type="dark">暗按钮</Button>
-      </div>
-    );
-  }
-}
+### `yarn build`
 
-export default App;
-```
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
