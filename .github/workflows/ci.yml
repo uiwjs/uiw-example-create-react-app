@@ -1,0 +1,17 @@
+name: GitHub Actions Build KKT
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - run: npm run build
