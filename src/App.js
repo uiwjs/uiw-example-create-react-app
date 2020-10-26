@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from 'uiw';
 import logo from './logo.svg';
 import './App.css';
@@ -33,4 +32,3 @@ function App() {
 }
 
 export default App;
-
