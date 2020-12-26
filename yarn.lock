@@ -970,6 +970,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@7.12.5":
+  version "7.12.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
+  integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.10.4", "@babel/template@^7.3.3":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.10.4.tgz#3251996c4200ebc71d1a8fc405fba940f36ba278"
@@ -1836,364 +1843,369 @@
   resolved "https://registry.yarnpkg.com/@uiw/icons/-/icons-2.4.3.tgz#cc81a866ec6ac2774584c4e0f4646bf41f6b7941"
   integrity sha512-tqJVlNh/hAeQ6ShU+OvHIQHaXvuElS/KshSU8t0I+ngUkfCEvZ9Ewwo+eIsv5tiHWphpkAU+akS2am/lNZAnNg==
 
-"@uiw/react-affix@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-affix/-/react-affix-4.6.13.tgz#8c90ec5d1c27765b6f2548bcc1eb42fdbf7c8262"
-  integrity sha512-9eNiEzVRj1NV2CAagqp+zrJejNedkUf8BANhh6miwIrBK3CXiO+cyk6sMqCzaqfBsoxATpgjkSh3n7bIyj/GmQ==
+"@uiw/react-affix@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-affix/-/react-affix-4.7.2.tgz#accb86b3d433ed5fb3b111f6ddbe6cd36b88b3c1"
+  integrity sha512-8XJOmvAJV6MExyhvWvSSnY1F35FD9+tFVhSE2gHWnOBnV7keJ22Y0F+ognyE3TPVAWhfqHSUzEWr5cSBugoXUw==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-alert@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-alert/-/react-alert-4.6.13.tgz#48a9d481e7e46dcc6b5e020529ba68d70d1d67a3"
-  integrity sha512-DN4E+t718GUMpkxT8Js0GE9LLfvxDz6hJYq29ERuc5bL2PfNgm1drPv4ib8a8xu404d4n+ot9xszt88frQ4nUQ==
+"@uiw/react-alert@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-alert/-/react-alert-4.7.2.tgz#568b3b49818d3b7f27a6893cd16f780c7b7324d9"
+  integrity sha512-994GpC02fb3AP8ncqX/c3KGu4K6ukdoksHhiIEhhUnHfnbCASCMIGjkxwmKJTkpKEbzm0QbiVqoMZSGk4Cl0OQ==
   dependencies:
-    "@uiw/react-modal" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-modal" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-avatar@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-avatar/-/react-avatar-4.6.13.tgz#6edae71a1e925a9cc02c8f89df491844c85f4f24"
-  integrity sha512-7A6RxHdaU0GYF68w5r/t4u0m7wnJnD3ZGBXERRsrZ+NsgCuK4mO0JgnNuy3LGUwueM6pWRsNGM1vRrUxImceEA==
+"@uiw/react-auto-link@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-auto-link/-/react-auto-link-4.7.2.tgz#46bc1dd4574340e86d23b45a636e13b728a06cb4"
+  integrity sha512-IflVloM2bYzXq4o/ILd5CyIov6huwM9bUDAnugxbH0xg8uRTQUCRsUgh8XysKP+0y8arFz0GBI1eyVH7CTUa+A==
+
+"@uiw/react-avatar@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-avatar/-/react-avatar-4.7.2.tgz#09bc6f6e93b4324b9197fa5e752348ea6fdede43"
+  integrity sha512-eccmjmurwUCKMPjpf5iuYYNy6IWfdf93esttMYuIUW99grrEz9rp7y9kiLo2ZRxNiJEMOcAKQWQXNtc3BMj/Gw==
   dependencies:
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-back-top@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-back-top/-/react-back-top-4.6.13.tgz#727bf6c88a4ac3e4d67fad5e6b4ba1db84161099"
-  integrity sha512-2J0jtuefloLhhxQ6yVWE51ogF2hBGSvrCT7yAQ66PuSPLDkWwPgp6I4VpyE5sIdMyT0dJLjNkGdoEIBvJHgvCQ==
+"@uiw/react-back-top@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-back-top/-/react-back-top-4.7.2.tgz#f5c7b04f140adc1677518bc62b673f7137eafdf9"
+  integrity sha512-dPZfyOs+Wj6fEZQQ94nbgVhHXP5WGmna3WL3iu1w78MweMRc5n+OK62NW1jVZsoccyU/oP09PU9LwSixednI+A==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-badge@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-badge/-/react-badge-4.6.13.tgz#3ed7e01ca06c74242d3a8a40933ac540e155b3a2"
-  integrity sha512-RpiQqgtdkt7iI6CXReE1NvfSZXnHkmhQRa7MQEgO2jyVwjjHV14JXI+aPYP3EGy7sclOrGXHFCezqQpHAnA9iw==
+"@uiw/react-badge@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-badge/-/react-badge-4.7.2.tgz#7a511e4e4026d13552faca8c59a5ccf4cc9bf184"
+  integrity sha512-oZ4SNT/INsLBJvzXiJ3ls+1r8ZUjcbHWrqFOOyV99NYdomEF7nogWkSkvwmVMB6UbeiuN1KjAWx3o4LJbF7uiw==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-breadcrumb@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-breadcrumb/-/react-breadcrumb-4.6.13.tgz#c10e72afe5651c4bc8a0f62dc83ed84630cb26d6"
-  integrity sha512-LapqL9JG7TL3uDKTM3ibnMP1jCBZ3+GBj1oAohczkAE8LFSkPxbMdhSD2V4+vGYiARiSmZTobQAuuZb1Q1YIzg==
+"@uiw/react-breadcrumb@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-breadcrumb/-/react-breadcrumb-4.7.2.tgz#d0bd1ee9832673971475e129ba5babd819045922"
+  integrity sha512-PeLfGwiNKp8cimbxnspI0uc6DWPI+J6XQabfxqN8hg5CaqrDgbz2IxvwYuNkOB9pqmnAKUHTqBOK2m/Drocbiw==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-button-group@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-button-group/-/react-button-group-4.6.13.tgz#c7d1e67ebfdffb56acdc37ec9b71c353ee902327"
-  integrity sha512-Qj1Kkqsr+GYKYWCkE+oJ8D12Y/I5CDQGi0TZxtjopdB6BJwxN3b/YbnZnbBTCahvuckrKZl0tvxQkKENqq46pg==
+"@uiw/react-button-group@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-button-group/-/react-button-group-4.7.2.tgz#a691a8847075012989565e9c5434c0bdfdeb7633"
+  integrity sha512-5zM2NLe/TsuqUXR9NrfT9MBFt+H7+Dx8rKmfs7B4nhBI+GpJmO7oIM6hwA/DrWZ7zrLCbjWs4t35aJ/b0H1BYA==
   dependencies:
-    "@uiw/react-button" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-button" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-button@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-button/-/react-button-4.6.13.tgz#28a67eef2a85fe0b019c9de5cdd73c25bf410d7a"
-  integrity sha512-V0/r8TY3QRCwELEFoN37NzXfkUGEu0HYEZN8tDn04XkFtcwhcn1E8uyHwkvaBVIOehs1HkOgStiHac82rbmsAA==
+"@uiw/react-button@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-button/-/react-button-4.7.2.tgz#a9c352fc423cba45b8dc4025c540ff90256835dc"
+  integrity sha512-lL66WqRT+qULgbH35jMVQiTPl9IPBqfZteXNACvmGqPqsT0ofN+o3ENXbpStLzNqr8hqIajS2LHKNVcFodoFMA==
   dependencies:
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-calendar@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-calendar/-/react-calendar-4.6.13.tgz#6789ee869c7bb1cece6df1178951d03989f5c50b"
-  integrity sha512-Qpw1fTCCspc8mN4PGPVIE6/hxHqRR0oqSh8rYSWhkYs7tq9ebBvqvudmkcHhCCW36fqAnfSFEIkzRsItStEG8A==
+"@uiw/react-calendar@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-calendar/-/react-calendar-4.7.2.tgz#dc3b59854ceadeb24550a70fafae304218bd047d"
+  integrity sha512-3CCgeBOroUWbVeW1QEYevj4EtQVc2vS0IKnKuPlgJwUZhTg/HLBVt66Z2C00AygZfZwSAIF5Kpykx2jmQWy5KA==
   dependencies:
     "@uiw/formatter" "1.2.4"
-    "@uiw/react-date-picker" "^4.6.13"
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-date-picker" "^4.7.2"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-card@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-card/-/react-card-4.6.13.tgz#23203b026f202df6d1f3cd4b70beb669e3b5f8e6"
-  integrity sha512-4EaEiiu3i4Ff5gsN/ntWoPQtYXIEwDx38yEApGOocqgp+I6DNYP00zjXVE+FSr9O7Es1fLf/2PXpYCjB8li9dQ==
+"@uiw/react-card@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-card/-/react-card-4.7.2.tgz#bfd34ba25886aa38c190c466308a09952cdd3579"
+  integrity sha512-QotGZINRQcIMX2qhD1Dnh59eAiL9HaUb4ZTkCYCLay3+kEMKJWfFKd0q4zbdacN0JHujAHucWtBWWOJgmmpzoA==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-checkbox@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-checkbox/-/react-checkbox-4.6.13.tgz#a1bec709e9bad301dcbd3d3c2da3f6d59f7f00d1"
-  integrity sha512-s3UApZ2p9Gynt3XJmxwj/x6D4HlkWZRzlGclRFKAyycCSErjw2t5r6bdWp8+uATHYd3rqu2dRvfG3I9ffmuUZA==
+"@uiw/react-checkbox@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-checkbox/-/react-checkbox-4.7.2.tgz#065865f943eca314bdcf4b231be3bec1aa35ffe1"
+  integrity sha512-GgZJUYkyUfsxaRz4+wS18Qt/ifZMe7k2vOYHVvORC/DGev+bueThRPitUvu+Pj2mIDUqM29ZmTo0gOKpH0CsYw==
   dependencies:
-    "@uiw/react-radio" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-radio" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-collapse@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-collapse/-/react-collapse-4.6.13.tgz#0a12b7b3b9e4ddd9d58b8d5c297de0340d706847"
-  integrity sha512-EKftHQVIfwD8ES4OsjUZXyjii6LcC0x1bOtUiwhN2SN/0Sqk/9k1pobLke74bfKkw5T7sJJtzI6p5XXZqMQEUw==
+"@uiw/react-collapse@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-collapse/-/react-collapse-4.7.2.tgz#f70e422c1b859159112ee8320df0d1004d92fd2d"
+  integrity sha512-cy66ETdTHCu2pwQLdFGJVopbk232/c2zNN1EEJuspmTIcSWC80xEJTnAAO4ES5zFMa22x74Z0CGOE9FzQbT54Q==
   dependencies:
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
     react-transition-group "^4.3.0"
 
-"@uiw/react-copy-to-clipboard@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-copy-to-clipboard/-/react-copy-to-clipboard-4.6.13.tgz#ccc3a1d3acffd353e1acdfa309e589e671a513ef"
-  integrity sha512-PCiO5rJfdjTfSOb89bfoNabVvD53c4dlbB0h6cSl4EcGEUTO8wYJu8TVOFbq4HKiUEnTEF3IFr+RE5QBnu0QNw==
+"@uiw/react-copy-to-clipboard@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-copy-to-clipboard/-/react-copy-to-clipboard-4.7.2.tgz#bd0167393a57661b2a738557e5101fd68d965b1f"
+  integrity sha512-DFzS98xdnmx827nXQCJToAT2l1Ndp2uK/krdd9ke1NFKjVIljMdT0GKo9JowQZLtXTXH+wPNgZ3ywanrpMCFXw==
   dependencies:
     "@uiw/copy-to-clipboard" "^1.0.11"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-date-input@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-date-input/-/react-date-input-4.6.13.tgz#cb48b33209dc366f9acdf3fa557a3dccd0501928"
-  integrity sha512-fLOVLCCIQvp6MrVIWd19qGQzUXQaSSbXv/OkLAwlqKTJVi1dYAoSFKMEuotIDpxhYJpR+QSO085JRbJV7uRpgw==
+"@uiw/react-date-input@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-date-input/-/react-date-input-4.7.2.tgz#6000a0f25640628d6aba233332e16049c6a2cf4d"
+  integrity sha512-aM5cEl0KIq+2+T4rOhMZiR66FO7qDlv0sYBKYJ7bdyBdZw93SW/n4/v6GtJBWRvyF/OuTeiVCG36RDtZgH4dlA==
   dependencies:
     "@uiw/formatter" "1.2.4"
-    "@uiw/react-date-picker" "^4.6.13"
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/react-input" "^4.6.13"
-    "@uiw/react-popover" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-date-picker" "^4.7.2"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/react-input" "^4.7.2"
+    "@uiw/react-popover" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-date-picker@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-date-picker/-/react-date-picker-4.6.13.tgz#bb314487e4654ec3f7177c5c02d67c7e6ebcd56a"
-  integrity sha512-RKnE6OMrr5U4Tow/8pZsKTpqIueksfMPM5UuFuoTad7TU41QpGLuzrRn9v/Cap/lVb3or22FNgyI6wk6HrrKqw==
+"@uiw/react-date-picker@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-date-picker/-/react-date-picker-4.7.2.tgz#63b715751071eb56a98da4c18970d5d1a18d97bc"
+  integrity sha512-zIGY3MTDOXZrFa2l8skfy4KdJ4SVv9VMAYgdgGh9I68CXD6DRHeWfZcMbAs8ozQ+ZpX6tUl2kH0Mk0+ojEanlg==
   dependencies:
     "@uiw/formatter" "1.2.4"
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/react-time-picker" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/react-time-picker" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-descriptions@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-descriptions/-/react-descriptions-4.6.13.tgz#57ec316dde28de4a542aa734287e86fbc3c81a3a"
-  integrity sha512-uKal5y2iOWh044c1WAyPbC4AUReV7Us155oiYLZmPDVMYg53Dd+iLodPPn731rydPP9spE0e+DgyjepqiFKEHg==
+"@uiw/react-descriptions@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-descriptions/-/react-descriptions-4.7.2.tgz#86a4f00708a99908144b00d36300254adf6e6ade"
+  integrity sha512-zvPceJWaQ3zHOFNgCLP915xKwuJUKBGeb0iokaMSzZ3yiiyav2Gn04CsTbmre1b0YrmAgx/42/ugQZPk1srBsQ==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-divider@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-divider/-/react-divider-4.6.13.tgz#243c65d19d536026d1c46e406f07c17b387bdde2"
-  integrity sha512-GUXZWsuDPSOS2uV1HhgYManl8/FuACJh5jQb6NYJbGVmSlkmBfG+SlpDFypE8LxbPcp/6sXQZRs6z5RUJuE90A==
+"@uiw/react-divider@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-divider/-/react-divider-4.7.2.tgz#5796c77e1e1242a461f417f5a4a80b91a15b92a8"
+  integrity sha512-dURppVB7AVra343hjhcDFZVEtpfAiHzgIrMEgXItyihzg3BXf/lAfyIFwvRGQISL3J7eHvFRSOyP98SShzcI2g==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-drawer@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-drawer/-/react-drawer-4.6.13.tgz#5134af4c6329c400d3178ae1404fc7395ccfa10c"
-  integrity sha512-ryhdgZspEfI+hoAYlbU4VMauE9cEK+xVhWN1poT71JtcVshA0MBrCTnina1bGyRlF6L+87wtGZjEdbZsCLjMEw==
+"@uiw/react-drawer@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-drawer/-/react-drawer-4.7.2.tgz#08e6d3ed546ae1796095b1d794038d48ff122686"
+  integrity sha512-+B/5d0q+FDC1QQqAUEgi44SBpCGYiL13Ohql6wijQknWc4IwBclAZsBrFRJafHBAm8SZNS6VoRhZSF+ZsVzhTA==
   dependencies:
-    "@uiw/react-button" "^4.6.13"
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/react-overlay" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-button" "^4.7.2"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/react-overlay" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-dropdown@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-dropdown/-/react-dropdown-4.6.13.tgz#27bed670f9e70ac3b99408ab1a926928fdd1220c"
-  integrity sha512-iW8VjVeqi+uBdFuoa6bIAYV8m+QFL0hiw0+XpohfjpESlsEpnusr0EEumbEIyT5IIrG+9f5fwMSRHGwxlnLyJg==
+"@uiw/react-dropdown@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-dropdown/-/react-dropdown-4.7.2.tgz#ff5c08c21dcaa47dfe492c51e6467e841cd483fc"
+  integrity sha512-GheDi1Y5RyeQv8Cfax5Ug/x+769lsPYy1vfR+VLKbUevua5u5LQmkeJq1FDs8fzrbuV21wYElrvOEoApR4S6uQ==
   dependencies:
-    "@uiw/react-overlay-trigger" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-overlay-trigger" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-file-input@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-file-input/-/react-file-input-4.6.13.tgz#90835acea51766f1db40b8ee200d2cd45ddb44ae"
-  integrity sha512-fyadlU2nEFWLkYMbDgR0xzo/B5sN8Pufcp6jX14sZtpgcY2F8xGRpkwSsU88lTyU0OJPWT1H8u3rRnS5n0l0Hw==
+"@uiw/react-file-input@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-file-input/-/react-file-input-4.7.2.tgz#d529b684f99d0a43e689b9453f7427678343d2e1"
+  integrity sha512-yTHzL+W5e0Fd5YvIdtrQM/LRKoXxcTSm1EOjx5EfxSaTUbGuBJ1kqOgA2+H6tOmtaHKfhkubG0cupMD7o0OVkA==
   dependencies:
-    "@uiw/react-input" "^4.6.13"
+    "@uiw/react-input" "^4.7.2"
 
-"@uiw/react-form@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-form/-/react-form-4.6.13.tgz#f51186877a66f23124d7b9a18a8dabdf915c00a5"
-  integrity sha512-4Zjk8uM0iAlyg3BcRvznhBy0YDaBoCWtCXDA2yd2iyFXvLnXtmPdg40Rsrm+gdtpssILBNOW6PuPat4N8Ge9Ag==
+"@uiw/react-form@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-form/-/react-form-4.7.2.tgz#86b84cac9e180ea32a0225c2dffe0dfd319df9c2"
+  integrity sha512-8aVqOl0YzNIb22qHkHJ19v0bc+WZ1EQ4CU7Jz9OtgLxE+QvLBCfgngBjuUcyqEAlW+gCpUKso8lLiQWngpaIkw==
   dependencies:
-    "@uiw/react-grid" "^4.6.13"
-    "@uiw/react-input" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-grid" "^4.7.2"
+    "@uiw/react-input" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-grid@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-grid/-/react-grid-4.6.13.tgz#9926f4466e25a77dae04f0590ee15cb0c7850996"
-  integrity sha512-6qkfiuOyELwQZZBMwmVk+33kxo8brOREGSyqMTZ8aVfLH5K+ujQA0IUbPiNUwwf9UF7t/Og9zCu7H+jzdpatlw==
+"@uiw/react-grid@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-grid/-/react-grid-4.7.2.tgz#fd4e1762b7f2fc130e9a45211ead9b41e72f38d0"
+  integrity sha512-CD/ayhghP3z8S8Zb2Is55IRJ/i5HNF4PhwpZRF5W7MCTuXRWcFXwiNeHyd0TV9jXqxWaoCHWCxJqnjT4L+C/HA==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-icon@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-icon/-/react-icon-4.6.13.tgz#6bd6c91433f59a186f10d9abf2792b2fc7a3ce2b"
-  integrity sha512-NVI3CHnQRCkXDOO+yLeXaimk1pywi4/hD5LmQMyok9+wEfcSRmmyU78V61+TKNm7mYO3BrPCkjNEocFEAOZR2g==
+"@uiw/react-icon@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-icon/-/react-icon-4.7.2.tgz#86bd06d855efb3a3d2ee734a67dde46f270bcd14"
+  integrity sha512-AQ41pKa7xQazB/em4SKVRUHOySZnp31W4o6XzZGHX/lYPP5m5TsLUSS6mqBezIUr1QCuka407PwbAZRB40crow==
   dependencies:
     "@uiw/icons" "^2.3.1"
 
-"@uiw/react-input@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-input/-/react-input-4.6.13.tgz#78273f36d6076ad1ca764f9faf486126351d16be"
-  integrity sha512-jXJInVBlrpxauUN8/UhAT188tCpKGfLMJ3fym+yJlHbLMCPU9huMt6TEtSJ2VwXFwByDwnes1fQGEKrScwNh+w==
+"@uiw/react-input@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-input/-/react-input-4.7.2.tgz#1a419e6befd5e9e5faeeecd0eb920c25442ca6d1"
+  integrity sha512-IzmkntTZLsUwNvQRZjPbPJfobkENKO4pKMSSYr1xTr54qaIO90c69xQGBpCLopO9Fj7UGAf2DCWLhy/4wPWClA==
   dependencies:
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-layout@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-layout/-/react-layout-4.6.13.tgz#4c3072213fa91c812256d6e4929d78327cf15e54"
-  integrity sha512-yaJ1LzzwjDysJ78H5vUp4fFlfHy4E5uJEUS2TY1UUJX49CadqQ2QNaJ5GzJ9aFx+t3XOj8CRRwg/QRxDaHmdCA==
+"@uiw/react-layout@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-layout/-/react-layout-4.7.2.tgz#4b96c423a6f40fd2db9470d03647198d9bbb9112"
+  integrity sha512-Fe14UKbKkbfRGFZ/fNx8gTyye0rp2yEPpauH7Kq6oPSgSAWEtRp4XP2Gx2pRrE0rkG/xR99k8/woQmHX9szyuQ==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-list@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-list/-/react-list-4.6.13.tgz#b75739d00cae1a5a1be8d886d3e0b1463a9065e8"
-  integrity sha512-/H4qCLoH8G3EuDx87pxz12Gwxh3SIlPz3+e8RVWyWajMKlweaoUrPClZ812ZL4fOe3me1gkSHq6bsagPyFy/KQ==
+"@uiw/react-list@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-list/-/react-list-4.7.2.tgz#1a87d69f0f65e4f979b8cec36d1f44c3e5730e1f"
+  integrity sha512-dildre32WQPVhEL8PIOlPvMDbClB7XpFHx04+prJ6I23nXJAhl8WQ1y3j3brqSeyzfRkk/xSWy8Dc2H0G3jo2w==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-loader@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-loader/-/react-loader-4.6.13.tgz#f0881e906a62992820304bf1b8995887e5338208"
-  integrity sha512-1WC6KHie9bV0laWog4uz5+O2WsXfudNozxfvDNXmZDcuq/babgcevUaM4suJvWJkdc4vWSCyaIL2WBCS8XPPXQ==
+"@uiw/react-loader@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-loader/-/react-loader-4.7.2.tgz#cd862fff02db54067fa4c56f084d103a49da5c03"
+  integrity sha512-MI2fc5zFpbvDYUef73NyVxDjcBAE9TiY6VE40GHAuac+aHDjTQP9C3XeYO78V8YezZWw2TTKbX4L/5mnxUfGEw==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-menu@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-menu/-/react-menu-4.6.13.tgz#2fbb51453221e25c87d5e77ff3095ff6d7b3872a"
-  integrity sha512-T5/6ERvbTdVVXMpUf86P5wF920PtTzlJm2FyLx9b7o59II6BbhKOc4g/Gl8lTTj7bIkjkxdB0pKJblnPtkWfDg==
+"@uiw/react-menu@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-menu/-/react-menu-4.7.2.tgz#2b9e50aac959d7a544be513878f34a39cc6fab67"
+  integrity sha512-BkpbfR91vA7VUXwxQOV9srqLFQ5Of66ce+XWs74J37KuaYmpVDMsST3fjaiboSz4kJnp4qDICMiw+EvpyLL1Jg==
   dependencies:
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/react-overlay-trigger" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/react-overlay-trigger" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
     react-transition-group "^4.3.0"
 
-"@uiw/react-message@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-message/-/react-message-4.6.13.tgz#24b273d6651d03b2a587b362bbfd32b564ec5e7b"
-  integrity sha512-vJiRz4Lk8vDUnqAgBbbe22z2NOrGMG/5ZyAtuV7q96kaIIOYMphW6EaV1cq8knCVtocIywBO3ORrnuwHIrGk6g==
+"@uiw/react-message@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-message/-/react-message-4.7.2.tgz#a3d623eecf5cfead41f43e57ea059226759e6a58"
+  integrity sha512-sChOsS+LAvGQpOfQ7OUsrFsIFzDrxPbxzobgzaSx1KoOf35ksV+aYqV8nAusdCOmKUOvRAO/4Bbo9j6/i/5VqA==
   dependencies:
-    "@uiw/react-button" "^4.6.13"
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-button" "^4.7.2"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
     react-transition-group "^4.3.0"
 
-"@uiw/react-modal@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-modal/-/react-modal-4.6.13.tgz#a1085eeeec275c0c5c5808ebe95dfda41fd1a708"
-  integrity sha512-+MEBX+esmzKTHelmGLHy+uro3xjJVq9MN0ctYW2ZeRyF/sIOFWkAucXXbvh1/mlIiWrpuP2ChPSAhDRwv+orQA==
+"@uiw/react-modal@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-modal/-/react-modal-4.7.2.tgz#2441e38842fc0184c94d193602ca06ccd75e4812"
+  integrity sha512-D9piOKKLwy6cuWmKr2kM2DY/XBSF1On+MJN0CrbrQVzOGscGYUwp4Vop4hpihiUP4p+miRt2c2u4RsVJZ/Z9hA==
   dependencies:
-    "@uiw/react-button" "^4.6.13"
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/react-overlay" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-button" "^4.7.2"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/react-overlay" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-month-picker@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-month-picker/-/react-month-picker-4.6.13.tgz#4ea39bc88295e280852ccd21cece3eeab52d5040"
-  integrity sha512-MRVPndIq7tNGrIBWXVxCE92BJaKWlsdCnh0N+78w5Q85BVV0k5A8GjGoK5KwZs2iiAUBo5H8gDfIOVMaNhFq+Q==
+"@uiw/react-month-picker@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-month-picker/-/react-month-picker-4.7.2.tgz#aeb8833792e206489c13cf08c743c172256e361d"
+  integrity sha512-/JdP/cKjQZnfaNLXT/Pv52ykGPeL2eYqamDPUVnpcCMivnUAmkKR4Oac+ozw5P3bKhVG+B6/M6ZEioJSiIzyOQ==
   dependencies:
     "@uiw/formatter" "1.2.4"
-    "@uiw/react-button" "^4.6.13"
-    "@uiw/react-date-picker" "^4.6.13"
-    "@uiw/react-input" "^4.6.13"
-    "@uiw/react-popover" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-button" "^4.7.2"
+    "@uiw/react-date-picker" "^4.7.2"
+    "@uiw/react-input" "^4.7.2"
+    "@uiw/react-popover" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-notify@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-notify/-/react-notify-4.6.13.tgz#2b8a9571cd60141777c1f91cfbe8822c6aa0202d"
-  integrity sha512-OGplDE2BHG1WRsw4yiXHAepdDKJDbyFTPr2vh1vxNeVBj9Sctz2iFiQbPFYJqBQa4kmD9NWdbzvAaHWAulHbSw==
+"@uiw/react-notify@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-notify/-/react-notify-4.7.2.tgz#78d9b2a9663997640fcce4a4e1f3c938fef3a9d1"
+  integrity sha512-BH2/rTbNlQxSszcijYPLK25UdoOZVE0LSsgafNiUhIC2cNljNCC7UMBYlSGPwDkkEdUzAlnVRWvCcCqJm+b+Wg==
   dependencies:
-    "@uiw/react-alert" "^4.6.13"
-    "@uiw/react-button" "^4.6.13"
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-alert" "^4.7.2"
+    "@uiw/react-button" "^4.7.2"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-overlay-trigger@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-overlay-trigger/-/react-overlay-trigger-4.6.13.tgz#c67817b8126534f9d962b81215ad69b849c7dc9a"
-  integrity sha512-hvmWIe3HoQBbqx7/RC6lc9UfkS/5aZ8+1dndhor7dMniNl3D8vLSnjlssf/GlWYdwkShuJOBUsWe1BkdQ3mjOg==
+"@uiw/react-overlay-trigger@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-overlay-trigger/-/react-overlay-trigger-4.7.2.tgz#b2178c4d4ee19dfce4a4f06292fa54bd728d2c8f"
+  integrity sha512-GKn/AhQCvH5REdw1UtH1ljIQq4uspTzfXVVE8bi7aaL4JUJFkTjXi5SxQYbkKDShwZI43k1MbsKx55g/yug15A==
   dependencies:
-    "@uiw/react-overlay" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-overlay" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-overlay@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-overlay/-/react-overlay-4.6.13.tgz#46c5e65f342a0ff09da81879b4b6c93c01685c67"
-  integrity sha512-zannCzRtmhegZuMKHleIyYcGTKGbieB7uRP/Rja9n0UtSuhx3/oClSB7f3D6Kbsl13j5iIk3QrVy32Ne8LombA==
+"@uiw/react-overlay@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-overlay/-/react-overlay-4.7.2.tgz#c04e6bb827a68e71a19f127c0f5c949f16e19a54"
+  integrity sha512-NF/CWVcLS3BjuyPV6wmoJOICAYMTCAosMB7tuEH2/V9jcduWOQZEXH0U5PDA69CssiC6lT4+36faB78jNyP7jQ==
   dependencies:
-    "@uiw/react-portal" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-portal" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
     react-transition-group "^4.3.0"
 
-"@uiw/react-pagination@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-pagination/-/react-pagination-4.6.13.tgz#e5fbbc8d77737f01e715030fdb922f4ed0bc76df"
-  integrity sha512-VwCXXfCp8wIrwEHvSpIheb+aAw4SIAR563MOHte2/8a5xc3ewVR+nXXv9zGVSu/Gtpxn6WhtZGu3DJ0c0p6MIQ==
+"@uiw/react-pagination@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-pagination/-/react-pagination-4.7.2.tgz#e6da39f0ea206a97529cc8acd1b7a464cd8c5b1c"
+  integrity sha512-65sqNwI6CBPN7krvBIDDYgbjryxZ+R2IuYp3W3te84Vp9ew1v666CFSlKFDHbL9mRUNp38SG8Gg0SyNWG1Rd0Q==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-pin-code@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-pin-code/-/react-pin-code-4.6.13.tgz#828c47d25eff1af5b03991fa734094e197f94e60"
-  integrity sha512-g1IKU/MtkD+nZEhOixUJmYxk0tpqh1FBm1FVBZcjKlXom3+8lJVkmTtg12B5XRbrAY2cKdC7n85hqMYQUk97mA==
+"@uiw/react-pin-code@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-pin-code/-/react-pin-code-4.7.2.tgz#f224cda9ef0900fa32d92de047d9d011c0b1cc5f"
+  integrity sha512-m+DnaqghfeYGlQHc7+yS/Ul5TuaiqFM+KHeOqegO47gd46jAD2+qKipAD4SaOw+P2+cHMn/uwDsy9NnJzPyQTg==
   dependencies:
-    "@uiw/react-input" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-input" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-popover@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-popover/-/react-popover-4.6.13.tgz#13dcb5e2aeb40124f11302f1dde082da988fa935"
-  integrity sha512-AxH57weA5tFb+oFrquT5b8mK8s23AjpFZLLj0Fg0elU2PxoowvsPdmXAaMNhcHks1mxIj6vHY4VAOajmg6Amhw==
+"@uiw/react-popover@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-popover/-/react-popover-4.7.2.tgz#8bbc73f090db3a98a1e1592ab4206caacd2ebe11"
+  integrity sha512-B0h3xOLPIG0naH6FjaBdToFFVIO7NhZmFTQ8KtpnWbLzm3bdGRX1HnMM+opRn1CcLCVSc/KYMA08Sfq8c7GdBA==
   dependencies:
-    "@uiw/react-overlay-trigger" "^4.6.13"
+    "@uiw/react-overlay-trigger" "^4.7.2"
 
-"@uiw/react-portal@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-portal/-/react-portal-4.6.13.tgz#c12eb862d2da3405c87e71b3df713a4d01e4c8eb"
-  integrity sha512-L5NHYbwKy7rfwPIHz/2vzI9fJ90SXfTHJQs5JsxQ25XZkBFFj4rjpIAajWGOy7mj3cBZJXiXXvu//ycApznOZg==
+"@uiw/react-portal@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-portal/-/react-portal-4.7.2.tgz#3bb2162362dd96383eb895c67411412d8116bcca"
+  integrity sha512-jSo/1uRuPf21SVux7Bnf46lHt60ATXZheK9CdBu2+qEhaOP+O8s/bZefFP+D6aUkWoq7Na05tnblV66fzgGk6A==
 
-"@uiw/react-progress@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-progress/-/react-progress-4.6.13.tgz#0c978dd268e5660ab208d95be46f63f74d385572"
-  integrity sha512-4HdCyMB5mdrTMZ0ujzMqFrOxm2bkl7WMyOwceNBHQ0Qt3lDi0QX/d5rtDG3xz7WCYFq0TXAmYYtr94eJDqJRkQ==
+"@uiw/react-progress@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-progress/-/react-progress-4.7.2.tgz#dd252530fbc142456766c7de014d8bd98131cfda"
+  integrity sha512-12j4OJ0TZoQB4/XE2vsJ+1AwtJF2xlgtIcN1gSleVZjolWnogz66HyLfySEyV1XmBM24QP578obLRjpN8BqLDw==
   dependencies:
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-radio@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-radio/-/react-radio-4.6.13.tgz#5476c58073f33fd54ed24d935d050bde8e09ac03"
-  integrity sha512-shp3D4bGSVg8GDgnyBru2XcgqWq3qmiHxodIuzll2GEzkMkGm1sQytPQdSv0HwZbcRaHIyOweGpIrW3us+FzZw==
+"@uiw/react-radio@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-radio/-/react-radio-4.7.2.tgz#5191187deda44748be5af875ca4d40436b16bf2e"
+  integrity sha512-X/9ElQ37xqJkFQur9o96VU9Ln4B4oC+1CtzdBd1Qplz7fqcByWnUH7dYh2FaM6s2EyY/mdzIlwht2ErBRwj/5A==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-rate@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-rate/-/react-rate-4.6.13.tgz#5ce3376e6394f77b3a0c4443b04c07a99e6dcfa6"
-  integrity sha512-G+M7RbaowSpgaZxOPCj9F0TSZs7WGy2I/xgpdUzHTqODzihNlJEtOZahJGPgTMg8IQwk1oJUz1ihrqc2eIceQQ==
+"@uiw/react-rate@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-rate/-/react-rate-4.7.2.tgz#df4a8125ad083fd820ca1f190e59508e4f5052e3"
+  integrity sha512-+G3kUHKAs+HqDSihQ8alb0CTNg61hQNx77l5xPztJdZFJAelE98Uzj7YUlw264munJPf6qXiOGPex5FHu0Mj5w==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-search-select@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-search-select/-/react-search-select-4.6.13.tgz#554dcd4ccd604fe2d82d31cf16f5a3ec8c546ec9"
-  integrity sha512-pjiYUYg0rwMmQfHeCxXf67zrlCKc3Au1qRs+nXBXCrdI/QZLTR5U0O/JJidbIu/FZmNkHB8EyNikOj7l2YlrDQ==
+"@uiw/react-search-select@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-search-select/-/react-search-select-4.7.2.tgz#50090c7918825ebb9060861ad78b89fe1ac9b6d6"
+  integrity sha512-vl0rGDHGEMV9hWQg7ZPKEMiXyC1K5KcWQFv2yN9qEYX89OJtzutRoTUDubxkKRG5UAG/acNAm0iTBWNN3cHtzg==
   dependencies:
-    "@uiw/react-dropdown" "^4.6.13"
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/react-input" "^4.6.13"
-    "@uiw/react-loader" "^4.6.13"
-    "@uiw/react-menu" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-dropdown" "^4.7.2"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/react-input" "^4.7.2"
+    "@uiw/react-loader" "^4.7.2"
+    "@uiw/react-menu" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-select@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-select/-/react-select-4.6.13.tgz#0e36bff4902d7739a4a1b960f3027cef45136eb5"
-  integrity sha512-u8jOUsKntk+gN+HbQxSQ4cib2qjZTMiRsedZRl6pglwvh2NzkXhCh60+//We8H5XfoCfbkAHZxvFQKhdZRv75g==
+"@uiw/react-select@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-select/-/react-select-4.7.2.tgz#25b5fdb5dfb566f405d4bffa1a7dd2ae554d185d"
+  integrity sha512-/eW4IA3M7C9L9prOenMv4Kdwebleco53/OEQUQKwnfjHLJnSyGRomXIBHAuzGC8Tdb8RUhp2naSvSvFI3FoGoQ==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-slider@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-slider/-/react-slider-4.6.13.tgz#eec52ed4c273ee2192e6aa2e57c0919b92465918"
-  integrity sha512-5oKdTdrpcS5cCpdkZEbSzcv0kNEyG5puO+4wox98V7XeAN8XUa9GOm4OJv/GDq9CR7/TmbE5e5HEL2JiQt7Qrg==
+"@uiw/react-slider@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-slider/-/react-slider-4.7.2.tgz#eaed921f330fd4da1c1f2522482ec7b53b431926"
+  integrity sha512-6tWGSt8KYNa30CVN8oWmmQ58T31GaherSqlTzH7Lydk6P/u5nKBot2fRUewtOIu0Hg62ioyuVffTPJV1XTGm7w==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
 "@uiw/react-split@^5.6.5":
   version "5.6.5"
@@ -2202,90 +2214,90 @@
   dependencies:
     classnames "2.2.6"
 
-"@uiw/react-steps@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-steps/-/react-steps-4.6.13.tgz#9a49be81897c62e9fa36141f44d4e1f2d4586cf8"
-  integrity sha512-xkfAbZYHrJ0znJ0Toj2OzGi9z1ELm0/nlvEIT/PeqPgYBaud95ekUUaSLlIsSXkmhtIWA5vp3+3qk7xyz7WB5g==
+"@uiw/react-steps@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-steps/-/react-steps-4.7.2.tgz#8a84505f2beeb58fd6fa56bb442d197a766979c7"
+  integrity sha512-35UYzUiV+V6YzJe/RQ9LdZrpx74F6kLri731U0LOgUE2cLVru+wSzNJNWzrno7yAaQv6e6JjmMd2Kc55Wc8ntg==
   dependencies:
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-switch@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-switch/-/react-switch-4.6.13.tgz#af721210b1f36dd5782e784b0814823c1ed13a21"
-  integrity sha512-ea8+odTFIZGbcarTEclfa3QYU1GmaRbyCdzlINtOtDqPcR/DHSPpotTdQhaROhyag818G2kAShz4YErc1JpjkA==
+"@uiw/react-switch@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-switch/-/react-switch-4.7.2.tgz#179eb91e9440101cf3160b44723bc910e374affe"
+  integrity sha512-W/il5zUqyttzexm99SRUFWPylU2dhkrTTMTWwcTnAZFd525m4sCLkwQAJDQvrNvKV7PqIhKhKwIa5t55y9G5Jg==
   dependencies:
-    "@uiw/react-radio" "^4.6.13"
+    "@uiw/react-radio" "^4.7.2"
 
-"@uiw/react-table@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-table/-/react-table-4.6.13.tgz#bc0b1a0967271157bd1d6b821fdb69554db0ca64"
-  integrity sha512-ztPpE3ifMdhB0lw4cV8nmr/XxBNyFgEOIkRnEmSdYXwIgqKt7BZAug4Na2FRdLjOu0uTuLgrI+SpQgVOI0Ny3g==
+"@uiw/react-table@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-table/-/react-table-4.7.2.tgz#35be65cb9785a0db7825414d44dd26543a695eb2"
+  integrity sha512-Yaf3zEXIKa8TIaXjxkpCkLT5MXa5lxbBx06xNq/CQ0I18xhiv9DZKd6WGcK0XGH3dmHTz8H3tigx1zsUuGccpw==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-tabs@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-tabs/-/react-tabs-4.6.13.tgz#f9f05d468eb99674d35aeefe5e786db65b0a296d"
-  integrity sha512-icA8ENIQEFbyNeMNfBkfrhJ/OhY2YcXYarJq03bcXp4U+fNSWeJrsePYbjEITojsJBIB6WSGlYU0uhUFvh2h0Q==
+"@uiw/react-tabs@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-tabs/-/react-tabs-4.7.2.tgz#84422c7980756b34a9eb04431a8e9bcb9d61fbb9"
+  integrity sha512-InpdGSEAsFMur3w4OjY8btxu6A2MyqYHwZz8rbDBGXgdehRYkxxrox7qy/zMuzpobeFZXpmAHTiPjrYdzmAU2Q==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-tag@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-tag/-/react-tag-4.6.13.tgz#53ebd0440288258569e8fe8c764fa0ae1093abfd"
-  integrity sha512-5h5BW8tj5Mhg1UVMVMIvotS8B12TMcrH9tG0FaRgmqZv+tGLL/9RFhX3zVe2NhvgooUGazO3p9NycjdJx+IchQ==
+"@uiw/react-tag@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-tag/-/react-tag-4.7.2.tgz#333e9d706b76a5a52577ebbf78095eae6f77742a"
+  integrity sha512-3S3LwMXeyQlTr21YyFxvKAeHvGHgvek2A1NHhXrjhRe9CeY+TMm74MEDRJDeTPKwtF84EyBSUSzfj9CU7Z9APQ==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-textarea@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-textarea/-/react-textarea-4.6.13.tgz#e2c19c5f0abaa001694c40d086ff28161bd555ac"
-  integrity sha512-eE+M4XZlheHn2EcvYrqLVDN478ToD/DojA18VNV9mL/8KkblwY2acC05qHf/EK7QQMEaN+vGyKHlE1aojZHuvQ==
+"@uiw/react-textarea@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-textarea/-/react-textarea-4.7.2.tgz#fda69f1d2ec3fdd1d5b68ce197102cc16ce3023a"
+  integrity sha512-G2O3JQygu7RpkEw8YmsV+eJvtpD1yREq17h1SGWKSzzOEWsCtSbxNtlPMuId51t6zNdBWdX6RNN1uUX9h9DHSQ==
   dependencies:
-    "@uiw/utils" "^4.6.13"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-time-picker@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-time-picker/-/react-time-picker-4.6.13.tgz#9332185e8a038fdcd30365074a8b4189ca3d833f"
-  integrity sha512-x1g6EeiApkyM90f8UvrqwUCckUceYS9h8LHY8nb6vUTOqP9eaK6l4Tl3lyDXrttpa2QKWU4fVHUDDVycMRx4rg==
+"@uiw/react-time-picker@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-time-picker/-/react-time-picker-4.7.2.tgz#109c3f68fb4d902577224388fbba409689555eee"
+  integrity sha512-hFFM4v4FiAhx0FfTbQEEDmOwLMSV50wGNYfAZZKLGCwjDO6jD3HzfAWMOZuRnjHg27/Xf94dKxYROYaVuTQfww==
   dependencies:
     "@uiw/formatter" "1.2.4"
-    "@uiw/react-button" "^4.6.13"
-    "@uiw/react-input" "^4.6.13"
-    "@uiw/react-popover" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-button" "^4.7.2"
+    "@uiw/react-input" "^4.7.2"
+    "@uiw/react-popover" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-tooltip@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-tooltip/-/react-tooltip-4.6.13.tgz#dabbd2fd695ae8399e3dde84ebad2a6bd9f26456"
-  integrity sha512-8M025ZCUnkZGt6ZPMavLd03DVM8jNJRHKYwXmSPLI/1aPuaLrK/n4OgFQfuYmPZdyFcS+fowbk93+/7hnGpYNw==
+"@uiw/react-tooltip@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-tooltip/-/react-tooltip-4.7.2.tgz#32edca3d19f0a29ce26afc5c3c633125ed82f92e"
+  integrity sha512-IuWhplf8ud9TCBVtopFL8ElAlQfYbDd4w0TR8g90JO+kJrJAkaE0aiT+dTc8ZW+2LufEYgD1+T5HnxRDfKAsKQ==
   dependencies:
-    "@uiw/react-overlay-trigger" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-overlay-trigger" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-tree-checked@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-tree-checked/-/react-tree-checked-4.6.13.tgz#66dc0946b34831b147c8c39fdfac0b49ab786208"
-  integrity sha512-wSvCRih0T9Irq/a5efaPKfAHgRugVRopK50CxrHhzPt080ru/vNReQlhKEX+8MoLdfCBobhC1s1yMKEuOObHKQ==
+"@uiw/react-tree-checked@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-tree-checked/-/react-tree-checked-4.7.2.tgz#ed2463c9769ad403cb428f110fe7684e920cb8be"
+  integrity sha512-dqngc/VHToM7T8+eoVUvxplwknqarqMt47U31HhtxZayGvMebGKa58k1QzuBglTsOEN5WcgiBQcZcPA1b/G0JA==
   dependencies:
-    "@uiw/react-checkbox" "^4.6.13"
-    "@uiw/react-tree" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-checkbox" "^4.7.2"
+    "@uiw/react-tree" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
 
-"@uiw/react-tree@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/react-tree/-/react-tree-4.6.13.tgz#dd5b9df74e111999c9bed8e21ecb84876a32318a"
-  integrity sha512-aWwpVBrGzweAB3K1LVvT4GDt7ljez37kfdeJFnl+l+rwGmgCvkVu8SfusUp93Ri8snhwPVFed8SuOVeNrN4ooQ==
+"@uiw/react-tree@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/react-tree/-/react-tree-4.7.2.tgz#e9ce212929b06a5fb9600f29071d85ed4d581d3c"
+  integrity sha512-lU57BPNVkp0aMkmR7TdbDuoP3BXx3+RrmBbQhN+cLt+m43vY8TtX7MU3JoiWEk1P9syDgkxX03g2EwxoCMzCjw==
   dependencies:
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/utils" "^4.6.13"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/utils" "^4.7.2"
     react-transition-group "^4.3.0"
 
-"@uiw/utils@^4.6.13":
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/@uiw/utils/-/utils-4.6.13.tgz#187e3974f711706b6a5367a7719e87a9fbc6c8b7"
-  integrity sha512-4uFxCbVjs9jIa5wdWHz1/MSndu9xaAc9OlzwpsvpR5pgCcJ45PwohcBvx18efcall5i+7ecR5yp6j+JfPq3tSQ==
+"@uiw/utils@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@uiw/utils/-/utils-4.7.2.tgz#116e9ccc69c01d6fae077e4df70e4ae666556f5c"
+  integrity sha512-NY0jNd39hN/beaD9cdE63SDJY+yHpGbS5NX4GTUOgWxbKkJ7vOhHDrqIVPaOkmEe7/lYPmoZ9b4sefeuCaSjfw==
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
@@ -11100,67 +11112,69 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-uiw@4.6.13:
-  version "4.6.13"
-  resolved "https://registry.yarnpkg.com/uiw/-/uiw-4.6.13.tgz#86ba4a07e47c8f60dbb47b0ef2db7586b93ffe6c"
-  integrity sha512-GJ86QmMroGi9sBL+GyqkRzy8QdXwb04ikJr8RxmNdy8K4OjXU3lu2qxcFegxj93ujBQp3zuY5Eywu3mdO695/A==
+uiw@4.7.2:
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/uiw/-/uiw-4.7.2.tgz#3966571c00e447e315f3be2a376d865ed0bdc40d"
+  integrity sha512-PwFzcuSkuvC0KB3nl9IAouv8/saKrDBVr5XIKep1pLCrSmlF/tN7t8kSBLWP6a18YfTNP9LNlrlKX0644kdd2Q==
   dependencies:
+    "@babel/runtime" "7.12.5"
     "@uiw/formatter" "1.2.4"
-    "@uiw/react-affix" "^4.6.13"
-    "@uiw/react-alert" "^4.6.13"
-    "@uiw/react-avatar" "^4.6.13"
-    "@uiw/react-back-top" "^4.6.13"
-    "@uiw/react-badge" "^4.6.13"
-    "@uiw/react-breadcrumb" "^4.6.13"
-    "@uiw/react-button" "^4.6.13"
-    "@uiw/react-button-group" "^4.6.13"
-    "@uiw/react-calendar" "^4.6.13"
-    "@uiw/react-card" "^4.6.13"
-    "@uiw/react-checkbox" "^4.6.13"
-    "@uiw/react-collapse" "^4.6.13"
-    "@uiw/react-copy-to-clipboard" "^4.6.13"
-    "@uiw/react-date-input" "^4.6.13"
-    "@uiw/react-date-picker" "^4.6.13"
-    "@uiw/react-descriptions" "^4.6.13"
-    "@uiw/react-divider" "^4.6.13"
-    "@uiw/react-drawer" "^4.6.13"
-    "@uiw/react-dropdown" "^4.6.13"
-    "@uiw/react-file-input" "^4.6.13"
-    "@uiw/react-form" "^4.6.13"
-    "@uiw/react-grid" "^4.6.13"
-    "@uiw/react-icon" "^4.6.13"
-    "@uiw/react-input" "^4.6.13"
-    "@uiw/react-layout" "^4.6.13"
-    "@uiw/react-list" "^4.6.13"
-    "@uiw/react-loader" "^4.6.13"
-    "@uiw/react-menu" "^4.6.13"
-    "@uiw/react-message" "^4.6.13"
-    "@uiw/react-modal" "^4.6.13"
-    "@uiw/react-month-picker" "^4.6.13"
-    "@uiw/react-notify" "^4.6.13"
-    "@uiw/react-overlay" "^4.6.13"
-    "@uiw/react-overlay-trigger" "^4.6.13"
-    "@uiw/react-pagination" "^4.6.13"
-    "@uiw/react-pin-code" "^4.6.13"
-    "@uiw/react-popover" "^4.6.13"
-    "@uiw/react-portal" "^4.6.13"
-    "@uiw/react-progress" "^4.6.13"
-    "@uiw/react-radio" "^4.6.13"
-    "@uiw/react-rate" "^4.6.13"
-    "@uiw/react-search-select" "^4.6.13"
-    "@uiw/react-select" "^4.6.13"
-    "@uiw/react-slider" "^4.6.13"
+    "@uiw/react-affix" "^4.7.2"
+    "@uiw/react-alert" "^4.7.2"
+    "@uiw/react-auto-link" "^4.7.2"
+    "@uiw/react-avatar" "^4.7.2"
+    "@uiw/react-back-top" "^4.7.2"
+    "@uiw/react-badge" "^4.7.2"
+    "@uiw/react-breadcrumb" "^4.7.2"
+    "@uiw/react-button" "^4.7.2"
+    "@uiw/react-button-group" "^4.7.2"
+    "@uiw/react-calendar" "^4.7.2"
+    "@uiw/react-card" "^4.7.2"
+    "@uiw/react-checkbox" "^4.7.2"
+    "@uiw/react-collapse" "^4.7.2"
+    "@uiw/react-copy-to-clipboard" "^4.7.2"
+    "@uiw/react-date-input" "^4.7.2"
+    "@uiw/react-date-picker" "^4.7.2"
+    "@uiw/react-descriptions" "^4.7.2"
+    "@uiw/react-divider" "^4.7.2"
+    "@uiw/react-drawer" "^4.7.2"
+    "@uiw/react-dropdown" "^4.7.2"
+    "@uiw/react-file-input" "^4.7.2"
+    "@uiw/react-form" "^4.7.2"
+    "@uiw/react-grid" "^4.7.2"
+    "@uiw/react-icon" "^4.7.2"
+    "@uiw/react-input" "^4.7.2"
+    "@uiw/react-layout" "^4.7.2"
+    "@uiw/react-list" "^4.7.2"
+    "@uiw/react-loader" "^4.7.2"
+    "@uiw/react-menu" "^4.7.2"
+    "@uiw/react-message" "^4.7.2"
+    "@uiw/react-modal" "^4.7.2"
+    "@uiw/react-month-picker" "^4.7.2"
+    "@uiw/react-notify" "^4.7.2"
+    "@uiw/react-overlay" "^4.7.2"
+    "@uiw/react-overlay-trigger" "^4.7.2"
+    "@uiw/react-pagination" "^4.7.2"
+    "@uiw/react-pin-code" "^4.7.2"
+    "@uiw/react-popover" "^4.7.2"
+    "@uiw/react-portal" "^4.7.2"
+    "@uiw/react-progress" "^4.7.2"
+    "@uiw/react-radio" "^4.7.2"
+    "@uiw/react-rate" "^4.7.2"
+    "@uiw/react-search-select" "^4.7.2"
+    "@uiw/react-select" "^4.7.2"
+    "@uiw/react-slider" "^4.7.2"
     "@uiw/react-split" "^5.6.5"
-    "@uiw/react-steps" "^4.6.13"
-    "@uiw/react-switch" "^4.6.13"
-    "@uiw/react-table" "^4.6.13"
-    "@uiw/react-tabs" "^4.6.13"
-    "@uiw/react-tag" "^4.6.13"
-    "@uiw/react-textarea" "^4.6.13"
-    "@uiw/react-time-picker" "^4.6.13"
-    "@uiw/react-tooltip" "^4.6.13"
-    "@uiw/react-tree" "^4.6.13"
-    "@uiw/react-tree-checked" "^4.6.13"
+    "@uiw/react-steps" "^4.7.2"
+    "@uiw/react-switch" "^4.7.2"
+    "@uiw/react-table" "^4.7.2"
+    "@uiw/react-tabs" "^4.7.2"
+    "@uiw/react-tag" "^4.7.2"
+    "@uiw/react-textarea" "^4.7.2"
+    "@uiw/react-time-picker" "^4.7.2"
+    "@uiw/react-tooltip" "^4.7.2"
+    "@uiw/react-tree" "^4.7.2"
+    "@uiw/react-tree-checked" "^4.7.2"
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
