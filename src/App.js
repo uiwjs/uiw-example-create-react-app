@@ -1,10 +1,15 @@
 import { Button } from 'uiw';
+import GitHubCorners from '@uiw/react-github-corners';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <GitHubCorners
+        target="__blank"
+        href="https://github.com/uiwjs/uiw-example-create-react-app"
+      />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
