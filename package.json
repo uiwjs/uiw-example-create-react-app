@@ -13,6 +13,7 @@
     "web-vitals": "^2.1.4",
     "uiw": "^4.13.7"
   },
+  "homepage": "https://uiwjs.github.io/uiw-example-create-react-app/",
   "repository": {
     "type": "git",
     "url": "https://github.com/uiwjs/uiw-example-create-react-app.git"
