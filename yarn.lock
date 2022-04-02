@@ -2030,6 +2030,11 @@
   resolved "https://registry.yarnpkg.com/@uiw/formatter/-/formatter-1.3.2.tgz#de12b79d57c5eb38d8683d3ae90e300c00f7b88a"
   integrity sha512-wzF0g72M/bQgypu8JqA0U1mb30KUQYNneKLoiMc8d6hHGog+dT/8uwWOjcaIPK9bjIz2Z8NBY9lS2S3tHktN4A==
 
+"@uiw/github-corners@1.5.10":
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/@uiw/github-corners/-/github-corners-1.5.10.tgz#afe57eeaab151b9c97f5179c6bc5b9b556f52298"
+  integrity sha512-r6O7xPrcAZWb06fi14R5B7mxToFsV5E64V5ZwMSdlyfu5WC3wEZ+3h0BVG1f80d0kKUi+Ndk+TIUywCkxK1qGg==
+
 "@uiw/icons@~2.6.0":
   version "2.6.6"
   resolved "https://registry.yarnpkg.com/@uiw/icons/-/icons-2.6.6.tgz#2c2f8e07c2cf8a837f9228e5c1f356a5c4e0d3a0"
@@ -2218,6 +2223,13 @@
     "@uiw/react-grid" "^4.13.7"
     "@uiw/react-input" "^4.13.7"
     "@uiw/utils" "^4.13.7"
+
+"@uiw/react-github-corners@~1.5.3":
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/@uiw/react-github-corners/-/react-github-corners-1.5.10.tgz#92fe8770419360b2357dc730fdacfdf4ab860c11"
+  integrity sha512-gGNjxPggyf7SPGu69NoZfd+2blF7FHIwVSpEIGHqWhgx72nH2D0lsZNnq2tce32k5Ac8K6fmIRMAa6sri1flLQ==
+  dependencies:
+    "@uiw/github-corners" "1.5.10"
 
 "@uiw/react-grid@^4.13.7":
   version "4.13.7"
@@ -6360,9 +6372,9 @@ minimatch@^3.0.4, minimatch@^3.1.2:
     brace-expansion "^1.1.7"
 
 minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 mkdirp@^0.5.5, mkdirp@~0.5.1:
   version "0.5.5"
