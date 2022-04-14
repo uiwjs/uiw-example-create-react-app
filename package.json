@@ -11,7 +11,7 @@
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4",
-    "uiw": "^4.13.7"
+    "uiw": "4.21.0"
   },
   "homepage": "https://uiwjs.github.io/uiw-example-create-react-app/",
   "repository": {
