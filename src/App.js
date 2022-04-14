@@ -1,4 +1,5 @@
-import { Button } from 'uiw';
+// import { Button } from 'uiw';
+import Button from '@uiw/react-button';
 import GitHubCorners from '@uiw/react-github-corners';
 import logo from './logo.svg';
 import './App.css';
