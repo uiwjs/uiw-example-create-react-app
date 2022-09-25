@@ -1582,7 +1582,7 @@
     lz-string "^1.4.4"
     pretty-format "^27.0.2"
 
-"@testing-library/jest-dom@^5.16.4":
+"@testing-library/jest-dom@5.16.4":
   version "5.16.4"
   resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-5.16.4.tgz#938302d7b8b483963a3ae821f1c0808f872245cd"
   integrity sha512-Gy+IoFutbMQcky0k+bqqumXZ1cTGswLsFqmNLzNdSKkU9KGV2u9oXhukCbbJ9/LRPKiqwxEE8VpV/+YZlfkPUA==
@@ -2256,7 +2256,7 @@
     "@uiw/react-input" "^4.21.0"
     "@uiw/utils" "^4.21.0"
 
-"@uiw/react-github-corners@~1.5.14":
+"@uiw/react-github-corners@1.5.14":
   version "1.5.14"
   resolved "https://registry.yarnpkg.com/@uiw/react-github-corners/-/react-github-corners-1.5.14.tgz#88b37f7ff532f1267e84fc09df254a4e208010fb"
   integrity sha512-lgokV53fSIQDde3598VNPeMJLdArK9L0FF9dM67xyNtcnw9wF+gYcE1LHt53JaiN9ioLtfR5zLZEpi0SwAPjqg==
@@ -7484,7 +7484,7 @@ react-dev-utils@^12.0.1:
     strip-ansi "^6.0.1"
     text-table "^0.2.0"
 
-react-dom@^18.0.0:
+react-dom@18.0.0:
   version "18.0.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.0.0.tgz#26b88534f8f1dbb80853e1eabe752f24100d8023"
   integrity sha512-XqX7uzmFo0pUceWFCt7Gff6IyIMzFUn7QMZrbrQfGxtaxXZIcGQzoNpRLE3fQLnS4XzLLPMZX2T9TRcSrasicw==
@@ -7577,7 +7577,7 @@ react-transition-group@~4.4.2:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-react@^18.0.0:
+react@18.0.0:
   version "18.0.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.0.0.tgz#b468736d1f4a5891f38585ba8e8fb29f91c3cb96"
   integrity sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A==
@@ -8611,7 +8611,7 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-uiw@^4.21.0:
+uiw@4.21.0:
   version "4.21.0"
   resolved "https://registry.yarnpkg.com/uiw/-/uiw-4.21.0.tgz#c36662a8a2d3e7dfda2387e4ca69f5082f19cfa9"
   integrity sha512-j4MmCsD3Ec8B69F9ZT2t732sh3dA6ycDNRwUGuvR4E+y5c2TrF8GEZLDuHrVENXLjEqyb9RbOVm8ubQi1Ew7PA==
@@ -8839,7 +8839,7 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   dependencies:
     minimalistic-assert "^1.0.0"
 
-web-vitals@^2.1.4:
+web-vitals@2.1.4:
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-2.1.4.tgz#76563175a475a5e835264d373704f9dde718290c"
   integrity sha512-sVWcwhU5mX6crfI5Vd2dC4qchyTqxV8URinzt25XqVh+bHEPGH4C3NPrNionCP7Obx59wrYEbNlw4Z8sjALzZg==
